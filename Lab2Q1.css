@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* 1. Navigation moved to left */
+nav {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #4CAF50; /* Hover effect */
+}
+
+/* 2. Top section with background image behind text */
+.top-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('FK.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.content-padding {
+    padding: 0 40px;
+}
+
+/* 3. Facts and Figures styling */
+.stats-container {
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.stat-number {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 14px;
+}
+
+/* 4. Bottom section with solid green background */
+.bottom-section {
+    background-color: #66c2a5; /* The specific green from your image */
+    color: black;
+    padding: 20px 0;
+}
+
+.bottom-section a {
+    color: #0000EE;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
